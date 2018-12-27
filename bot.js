@@ -301,6 +301,6 @@ By TorpeDoSyS
 
 
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "515106841315901451" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "514953598052990986" && ch.type === 'voice').join();
 });
 client.login(process.env.BOT_TOKEN);
